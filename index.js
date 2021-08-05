@@ -16,7 +16,8 @@ function ipsBetween(start, end){
     let p = 0
     for (var i = 0; i < start.length; i++) {
         i === 0 ? change += end[i] - start[i] 
-        : change += (end[i] - start[i]) * Math.pow(256, p)
+        : change += (end[i] - start[i]) * 256**p
+        // : change += (end[i] - start[i]) * Math.pow(256, p)
         p++
     }
     return change
