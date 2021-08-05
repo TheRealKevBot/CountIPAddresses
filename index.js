@@ -26,7 +26,4 @@ function ipsBetween(start, end){
 console.log(ipsBetween("10.0.0.0", "10.0.0.0"), 0);
 console.log(ipsBetween("10.0.0.0", "10.0.0.50"), 50);
 console.log(ipsBetween("20.0.0.10", "20.0.1.0"), 246); 
-console.log(ipsBetween("180.0.0.0", "181.0.0.0"), 16777216); 
-
-
-
+console.log(ipsBetween("180.0.0.0", "181.0.0.0"), 16777216);
